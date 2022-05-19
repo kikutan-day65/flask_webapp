@@ -1,23 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Web application</h1>
-    <article>
-        <h2>article01</h2>
-        <p>edit: 19.05.2022 01:30</p>
-        <p>This is the first step to make web application</p>
-    </article>
-    <h1>Web application</h1>
-    <article>
-        <h2>article02</h2>
-        <p>edit: 19.05.2022 02:15</p>
-        <p>This is the first step to make web application</p>
-    </article>
-</body>
-</html>
+{% extends "base.html" %}
+{% block content %}
+<h1>Web application</h1>
+<article>
+    <h2>article01</h2>
+    <p>edit: 19.05.2022 01:30</p>
+    <p>This is the first step to make web application</p>
+</article>
+<h1>Web application</h1>
+<article>
+    <h2>article02</h2>
+    <p>edit: 19.05.2022 02:15</p>
+    <p>This is the first step to make web application</p>
+</article>
+{% endblock %}
